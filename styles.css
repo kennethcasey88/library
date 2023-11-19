@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-holder {
+    display: flex;
+}
+
+#book-btn {
+    display: block;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#new-book-form {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#library {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 2px;
+    border: 1px solid black;
+}
